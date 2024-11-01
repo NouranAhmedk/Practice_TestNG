@@ -48,7 +48,7 @@ public class Assertion_Test {
         softAssert.assertTrue(actualAgeGroup.contains("1 5"),"Actual AgeGroup is not correct\n");
         softAssert.assertAll("\n Test soft Assert");
 
-//        driver.findElement(By.xpath("//div[@class=\"px-10 pt-20 pb-5\"]//input[@value=\"Female\"]")).click();
+//        driver.findElement(By.xpath("//div[@class=\"px-10 pt-20 pb-5\"]//input[@value=\"Fmale\"]")).click();
 //        driver.findElement(By.xpath("//div[@class=\"px-10 pt-20 pb-5\"]//button")).click();
 //        String actualGender = driver.findElement(By.linkText("Radio button 'Female' is checked")).getText();
 //        Assert.assertTrue( actualGender.contains("Radio button 'Female' is checked"), "It doesn't work");

@@ -3,7 +3,7 @@ package DemoTestNG;
 import org.testng.annotations.*;
 
 @Test(groups = "smoke")
-public class ConfigurationAnnotations_2_ListBox {
+public class  ConfigurationAnnotations_2_ListBox {
     @BeforeTest
     public void  beforeTest(){
         System.out.println( "  (2)Before Executing test");
